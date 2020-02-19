@@ -4,20 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "babel ./main.js -o ./bundle.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DrehKenzo/Projeto-Express.git"
-  },
+  "repository": "git+https://github.com/DrehKenzo/Projeto-Express.git",
   "keywords": [],
-  "author": "",
+  "author": "André Murakami <drehkenzo20@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DrehKenzo/Projeto-Express/issues"
   },
   "homepage": "https://github.com/DrehKenzo/Projeto-Express#readme",
   "dependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "babel-core": "^6.26.3",
     "express": "^4.17.1"
   }
 }
