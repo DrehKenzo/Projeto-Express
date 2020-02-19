@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js"
+    "dev": "babel ./main.js -o ./bundle.js",
+    "start": "nodemon app.js"
   },
   "repository": "git+https://github.com/DrehKenzo/Projeto-Express.git",
   "keywords": [],
@@ -18,5 +19,8 @@
     "@babel/preset-env": "^7.8.4",
     "babel-core": "^6.26.3",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
